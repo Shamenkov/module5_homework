@@ -90,8 +90,6 @@ myMap.set('key1', 'value1');
 myMap.set('key2', 'value2');
 myMap.set('key3', 'value3');
 
-for(let keyCount of myMap.keys()){
-}
-for(let valueCount of myMap.values()){
-}
-console.log('Ключ-', + keyCount, 'Значение-' + valueCount)
+let keyCount = myMap.keys()
+let valueCount = myMap.values()
+console.log (`Ключ- ${keyCount}, значение- ${valueCount}`)
